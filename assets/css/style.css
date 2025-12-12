@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    /* imagen de cursor personalizada */
+    cursor: url(../img/windows-98-cursor-blue.png), auto;
+    /* imagen de fondo fija */
+    background-image: url(../img/wallpaper-clouds-w98.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:hover, button:hover{
+    /* cursor de manito personalizado */
+    cursor: url(../img/windows-98-click-blue.png), auto;
+}
+
+#navbar-windows {
+    /* fondo de la navbar con degradado */
+    background:linear-gradient(90deg,#afb8ff, #ffe1f9);
+    height: 2rem;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 1.4rem);
+    display: flex;
+    padding: 0.5rem;
+    z-index: 9999999;
+    justify-content:center;
+    gap: 2em;
+    border-style: outset;
+    text-align: center;
+}
+
+.navbar-logo {
+    /* logos de las aplicaciones en la barra de navegacion */
+    width: 2em;
+    padding: .2em .2em 1em .4em;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.navbar-text {
+    /* texto de los botones en la barra de navegacion */
+    font-size: large;
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: .4em;
+}
+.app-logo {
+/* logo de las apps en la ventana */
+    width: 1em;
+}
+/* divisor de la barra de nav, entre start y los otros elementos */
+.divisor img{
+    height: 2.5em;
+}
+
+.clock {
+    display: flex;
+    font-size: 1.5em;
+    padding: .1em;
+    border-style: inset;
+    color:darkslateblue;
+}
+
+
+.app-button {
+    padding: 0px;
+    line-height: 2em;
+}
+.main-portfolio {
+    margin-top: 4.5rem;
+    display: flex;
+}
+.title-bar {
+    background:linear-gradient(90deg, #ffe1f9,#afb8ff);
+    font-size: large;
+}
+.title-bar-text {
+    color:grey;
+}
+#dntdstrb {
+    color: grey;
+}
+#about-me {
+    background-color: #dcd4ff;
+    width: 45%;
+    margin: 2em;
+    font-size: large;
+}
+.about-me-text {
+    margin: 2em;
+}
+.pfp-icon {
+    max-width: 400px;
+    min-width: 150px;
+    width: 20%;
+    float: left;
+    border-style: outset;
+}
+.windows-logo {
+    width: 1.5em;
+    height: 1.2em;
+}
+.about-me-cont {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.status-bar {
+    font-size:medium;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em;
+}
+
+.music-player-window {
+    background-color: #e8e3ff;
+    width: 20%;
+    margin: 3em;
+    min-width: 300px;
+}
+
+#projects {
+    display: block;
+    width: 65%;
+    margin: 3em 2em;
+    background-color: #e8e3ff;
+}
+
+.tabs-img {
+    max-width: 400px;
+    width: 20%;
+}
+menu[role=tablist]>li[aria-selected=true] {
+    background-color: #dddce6;
+}
+.tree-view li {
+    font-size: medium;
+    font-weight: 500;
+}
+.espaciado {
+    scroll-margin-top: 3rem;
+}
+
+.contact {
+    width: 22rem;
+    margin: 2em;
+    background-color: #e8e3ff;
+    display: block;
+}
+.contact-body{
+    font-size: medium;
+}
+.contact-body label{
+    font-size: small;
+}
+
+#focused-img {
+    width: 10em;
+    border-style: outset;
+}
+#angry-inuyasha{
+    width: 10em;
+    border-style: outset;
+    display: none;
+}
+.socials li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.field-row-stacked {
+    width: 20em;
+    margin: .4em;
+}
+
+.window-inuome {
+    margin: 2em;
+    width: 20em;
+    background-color: #e8e3ff;
+    font-size: medium;
+}
+
+
+#musicplayer{
+                background: transparent; /* background color of player */
+                width:auto; /* width of the player - make it 100% if you want it to fill your container */
+                padding:10px;
+                text-align:center; 
+                display:flex;
+                /* flex-direction:column; */
+                justify-content: center;
+                gap:10px;
+                flex-direction: row;
+            }
+            .songtitle, .track-info, .now-playing{
+                padding:5px;
+            }
+            .controls{
+                display:flex; 
+                flex-direction:column; 
+                gap:10px;
+            }
+            .buttons{
+                display:flex;
+                justify-content:center;
+                font-size:17px !important; /* size of controls */
+                width:100%;
+            }
+            .buttons div{
+                width:33.3%;
+            }
+            .playpause-track, .prev-track, .next-track{
+                color:#afb8ff; /* color of buttons */
+                font-size:20px !important; /* size of buttons */
+            }
+            .volume-icon{
+                font-size:1.2em !important; 
+                /* size of volume icon */
+                display: flex;
+                align-self: center;
+            }
+
+            .seeking {
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+                /* gap:5px; */
+            }
+            .volume {
+                display: flex;
+                flex-direction: row;
+            }
+            #volume-vertical{
+                width: 5.5em;
+            } 
+            .now-playing, .track-info{
+                background-color:transparent; /* background color of top two boxes */
+            }
+            .now-playing{
+                font-weight:bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            input[type=range]{
+
+                width:100%;
+            }
+            input[type=range]:focus{
+                outline:none; 
+                /* removes outline around tracks when focusing */
+            }
+
+            input[type=range]::-moz-range-track{
+                width:100%;
+                height:4px; /* thickness of seeking track */
+                background:#afb8ff; /* color of seeking track */
+            }
+            input[type=range]::-moz-range-thumb{
+                height:10px; 
+                /* height of seeking square */
+                width:10px; 
+                /* width of seeking square */
+                border-radius:0px; 
+                /* change to 5px if you want a circle seeker */
+                background:#afb8ff; 
+                /* color of seeker square */
+                border:none; /* removes weird border around seeker square in firefox */
+            }

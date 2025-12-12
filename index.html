@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <!-- navbar estilo barra de tareas windows 98 -->
+        <nav class="navbar" id="navbar-windows">
+            <button aria-label="Start" id="start-button" class="app-button">
+                <span>
+                    <img src="assets/img/windows_98_logo.png" alt="Windows 98 logo" class="navbar-logo">
+                </span>
+                <span class="navbar-text">start</span>
+            </button>
+            <span class="divisor"> <img src="assets/img/vertical-line.png" alt="vertical line png"></span>
+                <button aria-label="App" class="app-button" id="notepad-button">
+                    <img src="assets/img/notepad-logo.png" alt="windows 98 notepad logo" class="navbar-logo">
+                <span class="navbar-text">about me</span>
+                </button>
+                <button aria-label="App" class="app-button" id="music-player-button">
+                    <img src="assets/img/music-player-logo.png" alt="windows 98 music player logo" class="navbar-logo">
+                <span class="navbar-text">music player</span>
+                </button>
+                <button>
+                    <img src="assets/img/open-folder.png" alt="windows 98 opened folder" class="navbar-logo">
+                <span class="navbar-text">projects</span>
+                </button>
+                <button aria-label="App" class="app-button" id="msn-button">
+                    <img src="assets/img/MSN_Messenger_Service_29.webp" alt="" class="navbar-logo">
+                    <span class="navbar-text">contact</span>
+                </button>
+                <button aria-label="App" class="app-button" id="dntdstrb-button">
+                    <img src="assets/img/warning-icon.png" alt="" class="navbar-logo"> 
+                    <span class="navbar-text">do not dist-</span>
+                </button>
+            <div class="clock">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+            </div>
+        </nav>
+    </header>
+    <section class="main-portfolio espaciado"> 
+        <div class="window espaciado" id="about-me">
+            <div class="title-bar">
+                <div class="title-bar-text"> 
+                    <span>
+                        <img src="assets/img/notepad-logo.png" alt="Windows 98 notepad logo" class="app-logo">
+                    </span>
+                    about me
+                </div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body about-me-cont">
+                <img src="assets/img/kagome-pfp.jpg" alt="Kagome pfp" class="pfp-icon">
+                <div class="about-me-text">
+                    <p>¡Hola! Soy Rocío Núñez, Ingeniera Informática Empresarial de la Universidad de Talca.</p>
+                    <p><i>A veces es bueno volver a los básicos</i></p>
+                    <p><img src="assets/img/Windows_Logo_(1992-2001).svg" alt="" class="windows-logo">98's baby</p>
+                </div>
+        </div>
+        <div class="status-bar">
+            <p class="status-bar-field">Press F(call my mom) for help</p>
+            <p class="status-bar-field"></p>
+            <p class="status-bar-field">Life Usage: 27%</p>
+        </div>
+    </div>
+
+    <div class="window" id="projects">
+        <div class="title-bar">
+            <div class="title-bar-text">
+                <span><img src="assets/img/open-folder.png" alt="open folder windows 98" class="app-logo"></span>
+                projects
+            </div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <menu role="tablist">
+                <li role="tab" aria-selected="true">
+                    <a href="#tabs">mis proyectos</a>
+                </li>
+                <li role="tab"><a href="https://rocionunez.github.io/hard-launch/" target="_blank">Hard Launch</a></li>
+                <li role="tab"><a href="#tabs">Sikdorak</a></li>
+                <li role="tab"><a href="#tabs">Pokemon</a></li>
+            </menu>
+            <div class="window" role="tabpanel">
+                <div class="window-body" id="tab-proyectos-body">
+                    <ul class="tree-view">
+                        <li><img src="assets/img/miki-meiko-3.png" alt="marmalade boy" class="tabs-img"></li>
+                        <li>Puedes ver mis proyectos seleccionando alguna de las pestañas superiores.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <section class="row2">        
+        <div class="window contact espaciado">
+            <div class="title-bar">
+                <div class="title-bar-text"><img src="assets/img/MSN_Messenger_Service_29.webp" alt="" class="app-logo"> contact</div>
+                <div class="title-bar-controls">
+                            <button aria-label="Minimize"></button>
+                            <button aria-label="Maximize"></button>
+                            <button aria-label="Close"></button>
+                        </div>
+            </div>
+            <div class="window-body contact-body">
+                <p>Aquí abajito mis redes sociales</p>
+                <ul class="socials">
+                    <li>
+                        <a href="https://www.instagram.com/hypnosis_xd/" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl"></i></a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-linkedin fa-2xl"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-github fa-2xl"></i>
+                    </li>
+                </ul>
+                <p>O me mandas un mensaje</p>
+                <div class="field-row-stacked">
+                    <label for="text18">Tu nombre</label>
+                    <input id="text18" type="text" />
+                </div>
+                <div class="field-row-stacked">
+                    <label for="text20">Tu mensaje</label>
+                    <textarea id="text20" rows="8"></textarea>
+                </div>
+                <input type="submit" />
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Press F1 for help</p>
+                <p class="status-bar-field">Slide 1</p>
+                <p class="status-bar-field">CPU Usage: 14%</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="window window-inuome">
+        <div class="title-bar">
+            <div class="title-bar-text" id="dntdstrb"><img src="assets/img/warning-icon.png" alt="" class="app-logo"> do not disturb</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body inuome">
+            <p id="do-not-touch-text"><i class="fa-solid fa-triangle-exclamation"></i><strong> NO MOLESTES A LA NIÑA, ESTÁ ESTUDIANDO </strong><i class="fa-solid fa-triangle-exclamation"></i></p>
+            <img src="assets/img/kagome-focused.jpg" alt="focused kagome" id="focused-img">
+            <div class="angry-inu">
+                <img src="assets/img/angry-inuyasha2.jpg" alt="angry inuyasha" id="angry-inuyasha">
+            </div>
+        </div>
+    </div>
+    <div class="window music-player-window">
+        <div class="title-bar">
+            <div class="title-bar-text">
+                <span>
+                    <img src="assets/img/music-player-logo.png" alt="Windows 98 music player logo" class="app-logo">
+                </span>
+                music player
+            </div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div id="musicplayer">
+            <div class="player-no-vol">
+                <div class="now-playing">Playing 1 of 2</div>
+                <div class="track-info">
+                    <div class="track-name">Song Name</div>
+                    <div class="track-artist"></div>
+                </div>
+                <div class="controls">
+                    <div class="seeking">
+                            <div class="current-time">00:00</div>
+                            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                            <div class="total-duration">0:00</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="prev-track" onclick="prevTrack()">&#171;</div>
+                            <div class="playpause-track" onclick="playpauseTrack()">&#9654;</div>
+                            <div class="next-track" onclick="nextTrack()">&#187;</div>
+                        </div>
+                    </div>
+                    <audio id="music" src=""></audio>
+                </div>
+                <div class="volume">
+                    <!-- <div class="volume-icon">&#128362; -->
+                    <div class="volume-icon">
+                        <i class="fa-solid fa-volume-low"></i>
+                    </div>
+                </div>
+                <div class="is-vertical">
+                    <input type="range" min="0" max="100" value="25" class="volume_slider" onchange="setVolume()"
+                        id="volume-vertical">
+                    <!-- the default volume value is 25, change this if you want it to be higher or lower (i wouldn't recommend it bc it gets really loud) -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="//static.tumblr.com/gtjt4bo/QRmphdsdv/glenplayer02.js"></script>
+<!-- <script src="https://kit.fontawesome.com/8119dfca45.js" crossorigin="anonymous"></script> -->
+<script src="https://kit.fontawesome.com/4cd51ffab3.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
