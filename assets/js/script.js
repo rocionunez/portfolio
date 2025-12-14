@@ -5,8 +5,8 @@ var notepadButton = document.getElementById('notepad-button')
 startButton.onclick = function() {
   console.log('test start');
 }
+//kagome-inuyasha
 var kagome = document.getElementById('focused-img')
-// var inuyasha = document.getElementById('angry-inuyasha')
 kagome.onclick = function() {
   $(this).css ({
     'display' : 'none'
@@ -22,7 +22,7 @@ kagome.onclick = function() {
 
 //tabs
 
-//kagome-inuyasha
+
 
 
 
